@@ -41,6 +41,7 @@ export PATH=$KYLIN_HOME/bin:$PATH
 ## 3. Start Kylin
 
 ```
+# su hdfs
 # $KYLIN_HOME/bin/kylin.sh start
 ```
 

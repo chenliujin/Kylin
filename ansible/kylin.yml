@@ -1,0 +1,21 @@
+- hosts: kylin
+  tasks:
+    - name: Java ENV
+      copy: src=./etc/profile.d/java.env.sh dest=/etc/profile.d/
+
+    - name: Kylin ENV
+      copy: src=./etc/profile.d/kylin.env.sh dest=/etc/profile.d/
+
+    - name: kylin source
+      copy: src=/opt/apache-kylin-2.3.2-bin-hbase1x.tar.gz dest=/opt/
+
+    - name: 解压
+      shell: tar -xzvf /opt/apache-kylin-2.3.2-bin-hbase1x.tar.gz -C /opt/
+
+    - name: 权限
+      shell: chown -R hdfs:hadoop /opt/apache-kylin-2.3.2-bin
+
+    - name: ln
+      shell: ln -s /opt/apache-kylin-2.3.2-bin /opt/kylin
+
+

@@ -77,8 +77,12 @@ Model -> Cubes -> kylin_sales_cube, 点击 "Action" - "Build"，选择一个 201
 ## 4. Insight -> New Query
 
 ```
-select part_dt, sum(price) as total_selled, count(distinct seller_id) as sellers 
-from kylin_sales 
-group by part_dt 
+select part_dt, sum(price) as total_selled, count(distinct seller_id) as sellers
+from kylin_sales
+group by part_dt
 order by part_dt
 ```
+
+
+# 数据类型
+* BOOLEAN

@@ -1,3 +1,12 @@
+# kylin/api/query
+* METHOD: `POST`
+* Param:
+  - sql
+  - offset
+  - limit
+  - acceptPartial
+  - project
+
 
 # kylin/api/cubes/{cube_name}/rebuild
 

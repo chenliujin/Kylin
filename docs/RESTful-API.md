@@ -1,8 +1,24 @@
 # Query
 
+---
+
 # CUBE
-* List cubes
-* Build cube
+
+## 1. GET
+
+### 1.1 List cubes
+
+`GET /kylin/api/cubes`
+
+### 1.2 Get cube
+
+`GET /kylin/api/cubes/{cubeName}`
+
+## 2. PUT
+
+### 2.1 Build cube
+
+`PUT /kylin/api/cubes/{cubeName}/build`
 
 ---
 

@@ -38,4 +38,5 @@ Content-Type: application/json;charset=UTF-8
 ```
 
 # 参考文献
+* [RESTful API](http://kylin.apache.org/docs/howto/howto_use_restapi.html#build-cube)
 * [Build Cube with API](http://kylin.apache.org/docs/howto/howto_build_cube_with_restapi.html)

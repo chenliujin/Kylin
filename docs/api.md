@@ -1,3 +1,11 @@
+# Query
+
+# CUBE
+* List cubes
+* Build cube
+
+---
+
 # kylin/api/query
 * METHOD: `POST`
 * Param:
@@ -30,4 +38,4 @@ Content-Type: application/json;charset=UTF-8
 ```
 
 # 参考文献
-* http://kylin.apache.org/docs/howto/howto_build_cube_with_restapi.html
+* [Build Cube with API](http://kylin.apache.org/docs/howto/howto_build_cube_with_restapi.html)

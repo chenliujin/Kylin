@@ -15,6 +15,9 @@
     - name: 权限
       shell: chown -R hdfs:hadoop /opt/apache-kylin-2.3.2-bin
 
+    - name: 删除
+      shell: rm -f /opt/apache-kylin-2.3.2-bin-hbase1x.tar.gz
+
     - name: ln
       shell: ln -s /opt/apache-kylin-2.3.2-bin /opt/kylin
 

@@ -20,7 +20,3 @@
 
     - name: ln
       shell: ln -s /opt/apache-kylin-2.3.2-bin /opt/kylin
-
-    - name: Hive
-      shell: ln -s /etc/hive/conf/hive-site.xml /etc/hadoop/conf/hive-site.xml
-
